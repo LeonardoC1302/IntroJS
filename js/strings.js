@@ -12,3 +12,7 @@ console.log(product.replace('Pulgadas', '"')); // Replace
 console.log(product.split(' ')); // Split
 console.log(product.toUpperCase()); // ToUpperCase
 console.log(product.toLowerCase()); // ToLowerCase
+
+// Concatenate with variables
+const clientName = "George";
+console.log(`Client name: ${clientName} - Product: ${product} - Price: ${price}`)
